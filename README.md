@@ -33,6 +33,9 @@ Smart contact manager server application made with Java Spring Boot
 ### Share contact
 <img src="https://user-images.githubusercontent.com/56734609/118387015-1e220500-b635-11eb-8a76-db02417eccf0.png" width="730" heigth="530" />
 
+### Contact details
+<img src="https://user-images.githubusercontent.com/56734609/118387051-5aedfc00-b635-11eb-8a95-1271936aa715.png" width="730" heigth="530" />
+
 
 
 [<img src="https://user-images.githubusercontent.com/56734609/114071381-7ccbc480-98ba-11eb-959f-674cb3a25e1e.png" width="200" height="200">](https://youtu.be/Dd2qUO5BD98 "On Youtube")
