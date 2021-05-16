@@ -27,6 +27,9 @@ Smart contact manager server application made with Java Spring Boot
 ### Update contact
 <img src="https://user-images.githubusercontent.com/56734609/118386972-b8357d80-b634-11eb-886b-3c338bbd3735.png" width="730" heigth="530" />
 
+### Delete contact
+<img src="https://user-images.githubusercontent.com/56734609/118386989-eadf7600-b634-11eb-99fa-ac76a73e77be.png" width="730" heigth="530" />
+
 
 
 [<img src="https://user-images.githubusercontent.com/56734609/114071381-7ccbc480-98ba-11eb-959f-674cb3a25e1e.png" width="200" height="200">](https://youtu.be/Dd2qUO5BD98 "On Youtube")
