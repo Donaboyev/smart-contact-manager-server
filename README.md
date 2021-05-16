@@ -18,6 +18,9 @@ Smart contact manager server application made with Java Spring Boot
 ### Change password
 <img src="https://user-images.githubusercontent.com/56734609/118386594-f8473100-b631-11eb-975f-1248db03fe4f.png" width="730" heigth="530" />
 
+### User profile details
+<img src="https://user-images.githubusercontent.com/56734609/118386919-452c0700-b634-11eb-9477-f795b220c51f.png" width="730" heigth="530" />
+
 
 
 [<img src="https://user-images.githubusercontent.com/56734609/114071381-7ccbc480-98ba-11eb-959f-674cb3a25e1e.png" width="200" height="200">](https://youtu.be/Dd2qUO5BD98 "On Youtube")
