@@ -3,7 +3,7 @@ Smart contact manager server application made with Java Spring Boot
 
 ## Featues of the application
 
-###Register account
+###vRegister account
 <img src="https://user-images.githubusercontent.com/56734609/118386476-28da9b00-b631-11eb-908f-38009308111b.png" width="400" heigth="730" />
 
 Register account | Confirm email
