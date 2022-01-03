@@ -1,15 +1,15 @@
 package com.donaboyev.app.service.email;
 
-import lombok.AllArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+import lombok.AllArgsConstructor;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
-import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
+import javax.mail.MessagingException;
 
 @Service
 @AllArgsConstructor

@@ -1,12 +1,12 @@
 package com.donaboyev.app.entities.payload;
 
 import com.donaboyev.app.entities.User;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
 import java.time.LocalDateTime;
+import javax.persistence.*;
 
 @Getter
 @Setter

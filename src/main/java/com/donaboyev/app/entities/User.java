@@ -1,13 +1,13 @@
 package com.donaboyev.app.entities;
 
+import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 

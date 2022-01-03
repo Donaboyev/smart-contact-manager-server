@@ -1,27 +1,28 @@
 package com.donaboyev.app.service.user;
 
+import com.donaboyev.app.entities.payload.request.ChangePasswordRequest;
+import com.donaboyev.app.entities.payload.response.MessageResponse;
 import com.donaboyev.app.dao.ConfirmationTokenRepository;
 import com.donaboyev.app.dao.ContactRepository;
 import com.donaboyev.app.dao.UserRepository;
+import com.donaboyev.app.entities.UserRole;
 import com.donaboyev.app.entities.Contact;
 import com.donaboyev.app.entities.User;
-import com.donaboyev.app.entities.UserRole;
-import com.donaboyev.app.entities.payload.request.ChangePasswordRequest;
-import com.donaboyev.app.entities.payload.response.MessageResponse;
-import lombok.AllArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import lombok.AllArgsConstructor;
+
+import java.util.stream.Collectors;
 import java.security.Principal;
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
+import java.util.List;
 
 @Service
 @AllArgsConstructor

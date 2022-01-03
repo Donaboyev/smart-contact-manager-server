@@ -1,10 +1,11 @@
 package com.donaboyev.app.service.auth;
 
+import com.donaboyev.app.entities.payload.ConfirmationToken;
 import com.donaboyev.app.dao.ConfirmationTokenRepository;
 import com.donaboyev.app.entities.User;
-import com.donaboyev.app.entities.payload.ConfirmationToken;
-import lombok.AllArgsConstructor;
+
 import org.springframework.stereotype.Service;
+import lombok.AllArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.Optional;

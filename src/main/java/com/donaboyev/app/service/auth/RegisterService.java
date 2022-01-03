@@ -1,16 +1,17 @@
 package com.donaboyev.app.service.auth;
 
-import com.donaboyev.app.entities.User;
-import com.donaboyev.app.entities.UserRole;
-import com.donaboyev.app.entities.payload.ConfirmationToken;
-import com.donaboyev.app.entities.payload.request.RegisterRequest;
 import com.donaboyev.app.entities.payload.response.MessageResponse;
+import com.donaboyev.app.entities.payload.request.RegisterRequest;
+import com.donaboyev.app.entities.payload.ConfirmationToken;
 import com.donaboyev.app.service.email.EmailSender;
 import com.donaboyev.app.service.user.UserService;
-import lombok.AllArgsConstructor;
+import com.donaboyev.app.entities.UserRole;
+import com.donaboyev.app.entities.User;
+
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.stereotype.Service;
+import lombok.AllArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

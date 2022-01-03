@@ -1,9 +1,9 @@
 package com.donaboyev.app.entities.payload.response;
 
 import lombok.AllArgsConstructor;
+import lombok.ToString;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 @Getter
 @Setter
